@@ -22,6 +22,12 @@ public class Dog {
           age = ageIn;
       }
       
+          public Dog( String nameIn, String breedIn)
+      {
+          name = nameIn;
+          breed = breedIn;
+      }
+      
       // other methods
       public int getAge()
       {

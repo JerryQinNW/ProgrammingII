@@ -11,9 +11,10 @@ package modulefour;
 public class DriverDog {
     public static void main(String[] args){
         // local variables
-        Dog dog1 = new Dog( "Zelda","Standard Poodle", 7 );
+        Dog dog1 = new Dog( "Zelda","Standard Poodle");
         // logic for main
-        dog1.setAge( 4 );
+         dog1.setAge(100);
+         dog1.incrementAge();
         System.out.println(dog1.getAge());
     }
 }
