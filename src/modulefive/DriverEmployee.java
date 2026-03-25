@@ -42,7 +42,7 @@ public class DriverEmployee {
                 "Smith", "488-88-8888", 10, 41);
 
         //called implicit casting
-        Object object2 = new Employee("Jill", "Jones", "555-555-5555");
+        Object object2 = new Employee("Jill", "John", "555-555-5555");
         //Employee emp = new Object();
         
         System.out.println( object1 instanceof Object);
