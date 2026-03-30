@@ -47,5 +47,13 @@ public class Computer {
         return "OS: " + os + " Brand: " + brand + " Size: " + size;
     }
     
+    //equals Method - two Computer Objects are considered equal if they
+    //have the same brand
+    @Override
+    public boolean equals(Object o){
+    if(o instanceof Computer)
+        return this.brand.equals(((Computer)o).brand);
+    return false;
+    }
     
 }

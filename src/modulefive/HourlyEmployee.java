@@ -49,11 +49,11 @@ public class HourlyEmployee extends Employee {
 }
 
 
-    public String toString() {
+ /*   public String toString() {
         return super.toString() +
                ", Hours Worked: " + workedHours +
                ", Hourly Rate: $" + hourlyRate +
                ", Pay: $" + calculateWeeklySalary();
     }
-    
+    */
 }

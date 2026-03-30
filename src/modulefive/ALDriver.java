@@ -26,7 +26,7 @@ public class ALDriver {
         System.out.println(comp.get(0).getSize());
         
         //Add a computer object with default values into the arraylist at index 1
-        comp.add(3, new Computer());
+       // comp.add(3, new Computer());
         
         //Print the arrayList out so that all information for each computer is shown
 
@@ -34,6 +34,11 @@ public class ALDriver {
             System.out.println(c);  
         
         System.out.println(comp.size());
+        
+        Computer comp1=new Computer("win11",512,"HP");
+        Computer comp2=new Computer("win12",1024,"HP");
+        System.out.println(comp1.equals(comp2));
+        
     }
     
 }

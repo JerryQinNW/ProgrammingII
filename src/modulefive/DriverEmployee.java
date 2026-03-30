@@ -10,10 +10,20 @@ package modulefive;
  */
 public class DriverEmployee {
     public static void main(String[] args) {
+        
+        String s1="Hello";
+        String s2="Hello";
+        String s3=new String("Hello");
+        
+        System.out.println(s1==s2);
+        System.out.println(s1==s3);
+        System.out.println(s1.equals(s3));
+        
 
         // Create Hourly Employee
         HourlyEmployee hourlyEmp = new HourlyEmployee(
                 "John", "Doe", "123-45-6789", 40, 20.5);
+        System.out.println(hourlyEmp);
 
         // Create Salaried Employee
         SalariedEmployee salariedEmp = new SalariedEmployee(

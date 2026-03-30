@@ -51,8 +51,8 @@ public class Employee {
         return firstName + " " + lastName;
     }
 
-    public String toString() {
+  /*  public String toString() {
         return "Employee: " + getFullName() + ", SSN: " + ssn;
-    }
+    } */
     
 }
