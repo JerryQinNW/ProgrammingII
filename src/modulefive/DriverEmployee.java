@@ -21,28 +21,31 @@ public class DriverEmployee {
         
 
         // Create Hourly Employee
-        HourlyEmployee hourlyEmp = new HourlyEmployee(
+        Employee emp1 = new HourlyEmployee(
                 "John", "Doe", "123-45-6789", 40, 20.5);
-        System.out.println(hourlyEmp);
 
         // Create Salaried Employee
-        SalariedEmployee salariedEmp = new SalariedEmployee(
+        Employee emp2 = new SalariedEmployee(
                 "Jane", "Smith", "987-65-4321", 80000, 5000);
+        
+        // Creat a general employee
+        
+       Employee emp3=new Employee("James", "Jordan", "111-67-0978");
 
         // Display info
         System.out.println("=== Hourly Employee ===");
-        System.out.println(hourlyEmp);
+        System.out.println(emp1);
+        System.out.println(emp1.calculateSalary());
 
         System.out.println("\n=== Salaried Employee ===");
-        System.out.println(salariedEmp);
+        System.out.println(emp2);
+        System.out.println(emp2.calculateSalary());
+        
+        System.out.println("\n=== General Employee ===");
+        System.out.println(emp3);    
+        System.out.println(emp3.calculateSalary());
 
-        // Modify values
-        hourlyEmp.setWorkedHours(45);
-        salariedEmp.setStock(7000);
 
-        System.out.println("\n=== After Updates ===");
-        System.out.println(hourlyEmp);
-        System.out.println(salariedEmp);
         
         Object object1 = new Object();
         

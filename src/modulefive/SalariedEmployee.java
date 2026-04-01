@@ -39,7 +39,7 @@ public class SalariedEmployee extends Employee {
     }
 
     // Other method
-    public double totalCompensation() {
+    public double calculateSalary() {
         return salary + stock;
     }
 
@@ -47,6 +47,6 @@ public class SalariedEmployee extends Employee {
         return super.toString() +
                ", Salary: $" + salary +
                ", Stock: $" + stock +
-               ", Total Compensation: $" + totalCompensation();
+               ", Total Compensation: $" + calculateSalary();
     }
 }

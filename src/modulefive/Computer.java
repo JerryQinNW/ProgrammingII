@@ -17,6 +17,7 @@ public class Computer {
     public Computer()
     {
         this("", 0, "");
+
     }
     
     public Computer(String os, int size, String brand)

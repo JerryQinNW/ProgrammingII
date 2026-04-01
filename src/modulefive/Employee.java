@@ -50,9 +50,13 @@ public class Employee {
     public String getFullName() {
         return firstName + " " + lastName;
     }
+    
+    public double calculateSalary(){
+        return 0;
+    }
 
-  /*  public String toString() {
+    public String toString() {
         return "Employee: " + getFullName() + ", SSN: " + ssn;
-    } */
+    } 
     
 }

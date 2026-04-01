@@ -38,6 +38,8 @@ public class ALDriver {
         Computer comp1=new Computer("win11",512,"HP");
         Computer comp2=new Computer("win12",1024,"HP");
         System.out.println(comp1.equals(comp2));
+        Computer comp3=new Computer();
+        System.out.println(comp3);
         
     }
     

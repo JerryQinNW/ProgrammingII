@@ -39,7 +39,7 @@ public class HourlyEmployee extends Employee {
     }
 
     // Other method
-    public double calculateWeeklySalary(){
+    public double calculateSalary(){
 	double overtime = 0.0f;
 	if (workedHours >40)
 	{
@@ -49,11 +49,11 @@ public class HourlyEmployee extends Employee {
 }
 
 
- /*   public String toString() {
+    public String toString() {
         return super.toString() +
                ", Hours Worked: " + workedHours +
                ", Hourly Rate: $" + hourlyRate +
-               ", Pay: $" + calculateWeeklySalary();
+               ", Pay: $" + calculateSalary();
     }
-    */
+    
 }
