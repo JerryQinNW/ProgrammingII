@@ -19,5 +19,9 @@ public abstract class Figure {
     }
 
     public abstract double area();
+    
+    public String dimension(){
+        return "Dimension: " + dim1 +" " +dim2;
+    }
 
 }

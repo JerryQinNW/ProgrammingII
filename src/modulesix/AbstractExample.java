@@ -19,6 +19,8 @@ public class AbstractExample {
 
         System.out.println(r1.area());
         System.out.println(t1.area());
+        System.out.println(r1.dimension());
+        System.out.println(t1.dimension());
 
         ArrayList<Figure> flist = new ArrayList<>();
         flist.add(new Rectangle(5, 6));
