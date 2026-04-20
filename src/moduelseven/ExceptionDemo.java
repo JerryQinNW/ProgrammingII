@@ -35,7 +35,8 @@ public class ExceptionDemo {
         try {
             int a = 10 / 0;
         } catch (ArithmeticException e) {
-            System.out.println("ArithmeticException caught: " + e+"\n");
+            System.out.println("ArithmeticException caught: " + e.getMessage()+"\n");
+            
         }
 
         // 2. NullPointerException (unchecked)
